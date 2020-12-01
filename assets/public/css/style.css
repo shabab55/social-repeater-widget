@@ -1,0 +1,232 @@
+.social-widget-wrapper {
+    text-align: center;
+  }
+  
+  .effect {
+    width: 100%;
+    padding: 30px 0px 30px 0px;
+  }
+  .effect h2 {
+    color: #000;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 25px;
+    letter-spacing: 3px;
+  }
+
+  .effect .buttons {
+    margin-top: 20px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-pack: center;
+            justify-content: center;
+  }
+  .effect a:last-child {
+    margin-right: 0px;
+  }
+  
+  /*common link styles !!!YOU NEED THEM*/
+  .effect {
+    /*display: flex; !!!uncomment this line !!!*/
+  }
+  .effect a {
+    text-decoration: none !important;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    display: -webkit-box;
+    display: flex;
+    -webkit-box-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+            justify-content: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    font-size: 25px;
+    overflow: hidden;
+    position: relative;
+  }
+  .effect a i {
+    position: relative;
+    z-index: 3;
+  }
+  .effect a.facebook {
+    background-color: #3b5998;
+  }
+  .effect a.twitter {
+    background-color: #00aced;
+  }
+  .effect a.dribbble {
+    background-color: #ea4c89;
+  }
+  .effect a.pinterest {
+    background-color: #cb2027;
+  }
+  .effect a.instagram {
+    background-color: #bc2a8d;
+  }
+  .effect a.linkedin {
+    background-color: #007bb6;
+  }
+  .effect a.vimeo {
+    background-color: #1ab7ea;
+  }
+  .effect a.android {
+    background-color: #a4c639;
+  }
+  .effect a.behance {
+    background-color: #1769ff;
+  }
+  .effect a.bitbucket {
+    background-color: #205081;
+  }
+  .effect a.codepen {
+    background-color: #2C2C3A;
+  }
+  .effect a.deviantart{
+    background-color: #05cc47;
+  }
+  .effect a.flickr{
+    background-color: #ff0084;
+  }
+  .effect a.github {
+    background-color: #333;
+  }
+  .effect a.lastfm {
+    background-color: #d51007;
+  }
+  .effect a.quora {
+    background-color: #a82400;
+  }
+  .effect a.reddit{
+    background-color: #ff4500;
+  }
+  .effect a.skype{
+    background-color: #00aff0;
+  }
+  .effect a.slack {
+    background-color: #e9a820;
+  }
+  .effect a.snapchat {
+    background-color: #fffc00;
+  }
+  .effect a.soundcloud{
+    background-color: #ff8800;
+  }
+  .effect a.spotify{
+    background-color: #1db954;
+  }
+  .effect a.twitch{
+    background-color: #9146ff;
+  }
+  .effect a.vk{
+    background-color: #45668e;
+  }
+  .effect a.whatsapp{
+    background-color: #25d366;
+  }
+  .effect a.wordpress  {
+    background-color: #0087be;
+  }
+  .effect a.youtube {
+    background-color: #ff0000;
+  }
+  .effect a.telegram {
+    background-color: #0088cc;
+  }
+
+  /* circle effect */
+.effect >.circle a {
+    -webkit-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+  }
+  .effect >.circle a i {
+    -webkit-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+  }
+  .effect >.circle a:hover {
+    border-radius: 50%;
+  }
+  .effect >.circle a:hover i {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    text-shadow: 0 0 12px rgba(33, 33, 33, 0.6);
+    color: #fff;
+  }
+
+  /* olive effect */
+.effect >.olive a {
+  -webkit-transition: border-radius 0.2s linear 0s, -webkit-transform 0.2s linear 0s;
+  transition: border-radius 0.2s linear 0s, -webkit-transform 0.2s linear 0s;
+  transition: transform 0.2s linear 0s, border-radius 0.2s linear 0s;
+  transition: transform 0.2s linear 0s, border-radius 0.2s linear 0s, -webkit-transform 0.2s linear 0s;
+}
+.effect >.olive a:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  border-bottom-left-radius: 50%;
+  border-top-right-radius: 50%;
+  color: #fff;
+}
+
+/* lemon effect */
+.effect >.lemon a {
+  -webkit-transition: border-radius 0.2s linear 0.2s, -webkit-transform 0.2s linear 0s;
+  transition: border-radius 0.2s linear 0.2s, -webkit-transform 0.2s linear 0s;
+  transition: transform 0.2s linear 0s, border-radius 0.2s linear 0.2s;
+  transition: transform 0.2s linear 0s, border-radius 0.2s linear 0.2s, -webkit-transform 0.2s linear 0s;
+}
+.effect >.lemon a i {
+  -webkit-transition: -webkit-transform 0.2s linear 0s;
+  transition: -webkit-transform 0.2s linear 0s;
+  transition: transform 0.2s linear 0s;
+  transition: transform 0.2s linear 0s, -webkit-transform 0.2s linear 0s;
+  color: #fff;
+}
+.effect >.lemon a:hover {
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+.effect >.lemon a:hover i {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+          color: #fff;
+}
+
+/* fold effect */
+.effect >.fold a {
+  -webkit-transition: border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+  transition: border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+}
+.effect >.fold a:hover {
+  border-radius: 50%;
+  color: #fff;
+}
+
+/*spin effect */
+.effect >.spin a {
+  -webkit-transition: border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s, -webkit-transform 0.4s linear 0s;
+  transition: border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s, -webkit-transform 0.4s linear 0s;
+  transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s;
+  transition: transform 0.4s linear 0s, border-top-left-radius 0.1s linear 0s, border-top-right-radius 0.1s linear 0.1s, border-bottom-right-radius 0.1s linear 0.2s, border-bottom-left-radius 0.1s linear 0.3s, -webkit-transform 0.4s linear 0s;
+}
+.effect >.spin a i {
+  -webkit-transition: -webkit-transform 0.4s linear 0s;
+  transition: -webkit-transform 0.4s linear 0s;
+  transition: transform 0.4s linear 0s;
+  transition: transform 0.4s linear 0s, -webkit-transform 0.4s linear 0s;
+  color: #fff;
+}
+.effect >.spin a:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+  border-radius: 50%;
+}
+.effect >.spin a:hover i {
+  -webkit-transform: rotate(-360deg);
+          transform: rotate(-360deg);
+          color: #fff;
+}
